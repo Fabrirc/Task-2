@@ -1,0 +1,31 @@
+.downpage{
+    height: 1159px;
+    background-color: #232340;
+    display: grid;
+    color: white;
+    grid-template-rows: 2fr 8fr;
+
+    &__title{
+        display: grid;
+        align-content: center;
+        padding: 10%;
+        padding-left: 250px;
+    }
+
+    &__info{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    &__prebuild{
+        padding: 30%;
+        display: grid;
+        place-content: center;
+    }
+
+    &__score{
+        padding: 30%;
+        display: grid;
+        place-content: center;
+    }
+}

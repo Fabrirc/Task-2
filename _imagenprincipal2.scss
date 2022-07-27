@@ -1,0 +1,13 @@
+
+.imagenprincipal2{
+  position: relative;
+  top: -100px;
+  left: 10%;
+  
+
+  &__img{ 
+    @media (max-width: 700px) {
+      height: 300px  
+    }
+    }
+}

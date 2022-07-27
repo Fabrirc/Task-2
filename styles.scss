@@ -1,0 +1,18 @@
+@import "toppage";
+@import "toppage1";
+@import "toppage2";
+@import "downpage";
+@import "imagenprincipal2";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+

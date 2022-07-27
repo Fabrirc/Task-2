@@ -1,0 +1,14 @@
+
+.toppage1{
+    // background-color: blue;
+    height: 56px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    &__menu{
+      // background-color: pink;
+      display: grid;
+      grid-auto-flow: column;
+      place-items: center;
+    } 
+  }
